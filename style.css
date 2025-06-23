@@ -40,7 +40,7 @@ body {
   --letter-delay: 0ms;
   --letter-delay-hover: calc(var(--duration) * 1.25);
   --letter-height: calc(var(--envelope-height) - 2rem);
-  --letter-height-hover: 400px;
+  --letter-height-hover: 520px;
   --fold-rotate: rotateX(0deg);
   --fold-zindex-hover: 0;
   --fold-rotate-hover: rotateX(180deg);
