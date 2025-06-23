@@ -40,7 +40,7 @@ body {
   --letter-delay: 0ms;
   --letter-delay-hover: calc(var(--duration) * 1.25);
   --letter-height: calc(var(--envelope-height) - 2rem);
-  --letter-height-hover: 350px;
+  --letter-height-hover: 400px;
   --fold-rotate: rotateX(0deg);
   --fold-zindex-hover: 0;
   --fold-rotate-hover: rotateX(180deg);
@@ -203,11 +203,13 @@ body {
   max-width: 90%;
 }
 
-.custom-image {
-  width: 90px !important;
-  height: 90px !important;
+.imagen-sobre {
+  width: 120px;
+  height: auto;
   object-fit: contain;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .custom-image2 {
