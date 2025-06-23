@@ -40,7 +40,7 @@ body {
   --letter-delay: 0ms;
   --letter-delay-hover: calc(var(--duration) * 1.25);
   --letter-height: calc(var(--envelope-height) - 2rem);
-  --letter-height-hover: 520px;
+  --letter-height-hover: 550px; /* 🔺 Aumentado */
   --fold-rotate: rotateX(0deg);
   --fold-zindex-hover: 0;
   --fold-rotate-hover: rotateX(180deg);
@@ -60,7 +60,7 @@ body {
     --envelope-height: 350px;
     --letter-font-size: 1.2rem;
     --front-font-size: 1.25rem;
-    --letter-height-hover: 500px;
+    --letter-height-hover: 600px; /* 🔺 también aumentado para pantallas grandes */
   }
 }
 
@@ -176,6 +176,7 @@ body {
   left: 50%;
   width: 90%;
   height: var(--letter-height);
+  max-height: var(--letter-height);
   font-size: var(--letter-font-size);
   transform: translateX(-50%);
   background: var(--letter-clr-bg);
