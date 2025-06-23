@@ -60,7 +60,7 @@ body {
     --envelope-height: 350px;
     --letter-font-size: 1.2rem;
     --front-font-size: 1.25rem;
-    --letter-height-hover: 750px; /* 🔺 también aumentado para pantallas grandes */
+    --letter-height-hover: 950px; /* 🔺 también aumentado para pantallas grandes */
   }
 }
 
